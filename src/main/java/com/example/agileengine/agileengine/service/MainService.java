@@ -38,6 +38,8 @@ public class MainService {
 
             photos.forEach(photo -> System.out.println(photo.toString()));
 
+            System.out.println(String.format("%s photos found", photos.size()));
+
             System.out.println("Another search? (y/n)");
             final String anotherSearch = scanner.nextLine();
 
